@@ -1,0 +1,51 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run macos dev",
+            "type": "dart",
+            "request": "launch",
+            "flutterMode": "debug",
+            "program": "trackpad_issue/lib/main.dart",
+            "args": [
+                "-d",
+                "macos",
+            ]
+        },
+        {
+            "name": "Run windows dev",
+            "type": "dart",
+            "request": "launch",
+            "flutterMode": "debug",
+            "program": "trackpad_issue/lib/main.dart",
+            "args": [
+                "-d",
+                "windows",
+            ]
+        },
+        {
+            "name": "Run web dev",
+            "type": "dart",
+            "request": "launch",
+            "flutterMode": "debug",
+            "program": "trackpad_issue/lib/main.dart",
+            "args": [
+                "-d",
+                "chrome",
+                "--web-renderer",
+                "canvaskit",
+            ]
+        },
+        {
+            "name": "Run dev",
+            "type": "dart",
+            "request": "launch",
+            "flutterMode": "debug",
+            "program": "trackpad_issue/lib/main.dart",
+            "args": [
+                "--flavor",
+                "dev",
+            ]
+        },
+    ]
+}
